@@ -1,3 +1,3 @@
 # angular-pwa
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-wzvgyk)
+This is the updated mobile app component to the Operation Red Nose solution for Manitoba driveteams. 
