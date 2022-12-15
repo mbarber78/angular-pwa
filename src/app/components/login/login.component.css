@@ -1,0 +1,83 @@
+.login-view {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -10px;
+}
+.login-view .app-logo {
+  margin-top: 26px;
+  text-align: center;
+  padding-right: 30px;
+  margin-left: -10px;
+  margin-bottom: 15px;
+}
+.login-view .app-logo img {
+  height: 100px;
+  align-content: center;
+}
+.login-view .app-name {
+  margin: 7px 0 10px;
+  font-size: 31px;
+  text-align: center;
+}
+.login-group {
+  width: 100%;
+  position: relative;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+.login-group .login-field {
+  position: relative;
+}
+.login-group .login-field:first-child .form-control {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.login-group .login-field:last-child .form-control {
+  border-top: 1px solid #888;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.login-group .input-prompt {
+  position: absolute;
+  z-index: 10;
+  top: 14px;
+  left: 19px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #111;
+  font-weight: 600;
+}
+.login-group .form-control {
+  font-size: 16px;
+  height: auto;
+  padding: 13px 13px 13px 101px;
+  box-shadow: none;
+}
+.login-group .form-control:focus {
+  box-shadow: none;
+}
+.login-actions {
+  margin-top: 40px;
+}
+.login-button {
+  background-image: none, linear-gradient(to bottom,rgba(255,255,255,0.9) 0,rgba(255,255,255,0) 100%);
+  background-position: 50% 50%;
+  background-color: #ebebeb;
+  color: black;
+  border-color: #aaa;
+  margin-top: 23px;
+  border-radius: 3px;
+}
+.login-actions .error-messages {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 24px;
+  width: 100%;
+}
+.login-footer {
+  position: fixed;
+  bottom: 9px;
+  left: 22px;
+  text-align: center;
+}

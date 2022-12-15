@@ -1,0 +1,35 @@
+<div>
+<div class="login-view">
+    <div class="login-header">
+        <div class="app-logo">
+            <img src="">
+        </div>
+    </div>
+    <form>
+        <div class="login-body">
+            <div class="login-group">
+                <div class="login-field">
+                    <span class="input-prompt">Team #</span>
+                    <input type="number" class="form-control" id="teamId" ng-model="team.id" autofocus />
+                </div>
+
+                <div class="login-field">
+                    <span class="input-prompt">Password</span>
+                    <input type="password" class="form-control" id="teamPassword" ng-model="team.password" />
+                </div>
+            </div>
+        </div>
+
+        <div class="login-actions">
+            <button title="Login" ng-click="login(team)" class="button button-block login-button">Login</button>
+            <p class="error-messages">{{loginErrorMessage}}</p>
+        </div>
+
+    </form>
+    <div class="login-footer keyboard-hides" style="z-index:-1">
+        <p>Need help? Call the office at <a class="emphasize" ng-href="tel:{{officePhoneNumber}}">{{officePhoneNumber}}</a></p>
+        <hr/>
+        <p>Environment: {{environment}} - v{{appVersion}}</p>
+    </div>
+</div>
+</div>   
